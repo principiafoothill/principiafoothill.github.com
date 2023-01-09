@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Sans&display=swap');
+html {
+    padding: 0;
+    background-color: #616456;
+}
+
+main {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, a, small {
+    font-family: 'Bebas Neue', cursive;
+    line-height: 35px;
+    color: #cfccc2;
+}
+
+p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: bold;
+    line-height: 30px;
+    color: #cfcec2;
+}
+
+.banner {
+    font-size: 150px;
+    text-align: center;
+}
+
+/* min width 1190 */
+@media only screen and (max-width: 74.375em) {
+    h1, h2, h3, h4, h5, h6, a, small {
+        line-height:normal;
+    }
+
+    .feature {
+        padding: 0;
+    }
+}
